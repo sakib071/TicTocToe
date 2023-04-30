@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  background-color: rgb(29, 0, 44);
+}
+.container {
+  padding-top: 10rem;
+  text-align: center;
+  color: rgb(245, 218, 255);
+}
+.display-3 {
+  color: rgb(245, 218, 255);
+  font-size: 3rem;
+  font-weight: 500;
+}
+.display-6 {
+  color: rgb(245, 218, 255);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.board {
+  background-color: rgb(29, 0, 44);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 500px;
+}
+.grid {
+  border: 1px solid rgb(245, 218, 255);
+  font-size: 4rem;
+  min-width: 100px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.playerName {
+  color: rgb(245, 218, 255);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.hide {
+  display: none;
+}
+.playerX {
+  color: rgb(245, 218, 255)s;
+}
+.playerO {
+  color: rgb(245, 218, 255);
+}
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+#reset {
+  width: 10rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(29, 0, 44);
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
